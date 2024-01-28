@@ -1,14 +1,8 @@
 import cv2
 import numpy as np
-import pyautogui
-import pygetwindow as gw
 import requests
-from ultralytics import YOLO
-from PIL import Image
-from time import sleep
 from datetime import datetime
 import os
-import logging
 
 class RedBoxDetector:
     MIN_AREA_THRESHOLD = 1_000  # Minimum area threshold in pixels
